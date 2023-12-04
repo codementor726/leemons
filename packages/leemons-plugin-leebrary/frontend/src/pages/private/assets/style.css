@@ -1,0 +1,94 @@
+.chat_box_wrap .chat_left {
+  color: #474444;
+  font-size: 15px;
+  line-height: normal;
+  margin: 0 4%;
+}
+.chat_box_wrap .vedio_box video {
+  border-radius: 20px;
+  height: 50%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.chat_box_wrap .chat_left h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.cdetYU {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(110, 72, 170);
+  color: rgb(255, 255, 255);
+  display: flex;
+  fill: rgb(255, 255, 255);
+  height: 56px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-radius: 25px 25px 0 0;
+}
+.mantine-ChatDrawer-wrapper{
+  padding: 0 10% 0 0;
+}
+
+video {
+  height: 50%;
+  max-width: 100%;
+}
+
+.message_body {
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  /* Common style for chat bubbles */
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  max-width: 60%;
+}
+
+.right_text {
+  background-color: #007bff;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.left_text {
+  /* Style for receiver's chat bubble */
+  background-color: #f0f0f0;
+  color: #000;
+  align-self: flex-start;
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.image {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.hidden {
+  display: none;
+}
